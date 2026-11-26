@@ -26,4 +26,14 @@ android {
 
 dependencies {
     implementation project(':FtcRobotController')
+
+    // NextFTC Stable release
+    implementation 'dev.nextftc:ftc:1.1.0'
+    implementation 'dev.nextftc:hardware:1.1.0'
+
+    // Pedro Pathing v3 (Advanced Movement)
+    implementation 'com.pedropathing:core:3.0.0'
+    implementation 'com.pedropathing:revhub:3.0.0'
+    implementation 'com.pedropathing:tuning:1.0.0'
+    implementation 'com.pedropathing:ivy:1.0.0'
 }
